@@ -1,0 +1,453 @@
+.containerBox .loginBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    height: 100vh;
+    text-align: center;
+}
+.containerBox{
+    background-color:#da3d4f;
+    display: none;
+    /* opacity: 0.7; */
+}
+.containerBox #head{
+    text-align: right;
+    cursor: pointer;
+    color: white;
+    margin-right: 20px;
+    font-size: 3rem;
+}
+.loginBox .boxes{
+    width: 450px;
+    background-color: white;
+    height: 500px;
+}
+.loginBox p{
+    padding: 10px;
+}
+.loginBox #email{
+    width: 80%;
+    padding:5px 10px;
+    border: none;
+    outline: none;
+}
+.loginBox button{
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    margin: 10px 0;
+}
+.loginBox .picture{
+    background-image: url(loginImg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.loginBox .text h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    padding: 10px;
+}
+.header{
+    background-color: #f03047;
+    color: white;
+    font-size: 1.2rem;
+    height: 50px;
+    z-index: 50;
+    position:sticky;
+    top: 0;
+    left: 0;
+    
+    
+}
+@media screen and (max-width:700px){
+    .header{
+        height: auto;
+    }
+    
+}
+/* .nav{
+    position:sticky;
+    top:20px;
+    left: 0;
+} */
+.text{
+    padding-top: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image{
+    margin: 20px;
+}
+.list ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row;
+    list-style: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.list li{
+    padding:10px 20px;
+    font-weight: 900;
+}
+.list li:hover{
+    background-color: #f03047;
+    color: white;
+    border-radius: 30px;
+    
+}
+@media screen and (max-width:700px){
+    .list ul{
+        display: none;
+    }
+    .image{
+        margin: 0;
+    }
+    .logo{
+        margin: 0;
+    }
+    
+}
+@media screen and (max-width:700px){
+    .logo{
+        /* display: none; */
+        margin-top:-25px;
+    }
+    .image{
+        /* margin: auto; */
+        display: none;
+    }
+    
+}
+.main{
+    background-image: url(bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-top:-20px ;
+}
+@media screen and (max-width:700px){
+    .main{
+        height: auto;
+    }
+    
+}
+.txt h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    font-weight: 900;
+    margin: 30px 30px 0px 30px;
+}
+.btn button{
+    background-color: #f03047;
+    color: white;
+    border-radius: 30px;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 10px 20px;
+    /* margin-top: -30px; */
+    position: relative;
+    top: -120px;
+}
+.box {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+    padding: 10px;
+}
+.box img{
+    width: 120px;
+    height: 80px;
+}
+.box h3{
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+.box:hover h3{
+    color: #f03047;
+   
+}
+.cat h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+.pic img{
+    /* margin-left: 20px; */
+    position: relative;
+    left: 50px;
+}
+.card h1{
+    color: white;
+    font-size: 3.5rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    text-align: center;
+    /* font-family: 'Pacifico', cursive; */
+
+}
+.card{
+    transition: rotate 600ms, scale 1s;
+}
+@media screen and (max-width:700px){
+    .card{
+        margin: 10px 0;
+    }
+    
+}
+.card:hover{
+    rotate: y 0.5turn;
+    scale: 1.09;
+}
+.card button{
+    display: inline-block;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: white;
+    border: 2px solid white;
+}
+.card1{
+    background-image: url(card5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 350px;
+    object-fit: fill;
+}
+.card2{
+    background-image: url(card1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 350px;
+    object-fit: fill;
+}
+.card3{
+    background-image: url(card2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 350px;
+    object-fit: fill;
+}
+.card4{
+    background-image: url(card3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 350px;
+    object-fit: fill;
+}
+.card .green button{
+    background-color: green;
+}
+.card .pink button{
+    background-color:#f03047;
+}
+.first{
+    background-image: url(tb-banner-images-01.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+    margin: 20px 0;
+    /* width: 680px; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.second{
+    background-image: url(tb-banner-images-02.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+    margin: 20px 0;
+    /* width: 680px; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+@media screen and (max-width:700px){
+   .blogCard{
+    width: 100%;
+    margin: 10px 0;
+   }
+   .shop{
+    width: 100%;
+   }
+    
+}
+.shop{
+    padding: 20px;
+}
+.shop button{
+    border-radius: 30px ;
+    border: 2px solid white;
+padding: 10px 20px;
+background-color: transparent;
+color: white;
+font-weight: bold;
+}
+.shop h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    font-size: 4rem;
+}
+.first button:hover{
+    background-color: green;
+}
+.second button:hover{
+    background-color:#f03047;
+}
+.bg-img{
+    background-image: url(tb-perallex-images.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
+.para{
+    color: white;
+    padding: 30px;
+    }
+.para h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    font-size: 5rem;
+}
+.para p{
+    font-size: 1.5rem;
+}
+.para button{
+    border-radius: 30px ;
+    border: 2px solid white;
+padding: 10px 20px;
+background-color:#f03047;
+color: white;
+font-weight: bold;
+}
+.test h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    font-size: 4rem;
+    text-align: center;
+}
+.testimonial{
+    background-image: url(tb-testimonial-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:50px 30px;
+    margin-top: -150px;
+    text-align: center;
+    color: white;
+    /* width: 1200px; */
+    overflow: hidden;
+}
+@media screen and (max-width:700px){
+    .testimonial{
+        width: fit-content;
+    }
+    
+}
+.santaPic{
+    margin-top: -120px;
+    width: 100%;
+}
+.testimonial h2{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    font-size: 4rem;
+}
+.testimonial img{
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+}
+.blog h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    margin-top: 180px;
+}
+.blogCard{
+    width: 450px;
+}
+.blogCard h1{
+    font: 900 30px/28px 'Dancing Script', cursive;
+}
+.blogCard .date{
+    color: #f03047;
+    font-weight: 900;
+}
+.blogCard button{
+    border: none;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+.footer{
+    background-image: url(tb-testimonial-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    color: white;
+    /* text-align: center; */
+}
+.footer li{
+    list-style: none;
+    font-weight: bold;
+}
+.footer .txt{
+    color: white;
+}
+.footer h3{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    /* text-align: center; */
+    font-family: 'Pacifico', cursive;
+}
+.foot {
+    text-align: left;
+}
+.icons ul{
+    display: flex;
+}
+.icons li{
+    padding:0 10px;
+    /* font-size: 2rem; */
+}
+.footNav{
+    border-top: 2px solid white;
+    font-size: 1.2rem;
+}
+.bg-pic{
+    width: 100%;
+}
